@@ -5,10 +5,10 @@ export const NAME_SLOT = {
   centerX: 368,
   baselineY: 191.5,
   maxWidth: 180,
-  fontSize: 17,
-  minFontSize: 10,
+  fontSize: 18.5,
+  minFontSize: 11.5,
   extraBaselineY: 170,
-  extraFontSize: 14,
+  extraFontSize: 15.5,
 };
 
 export function safeFileName(name: string) {
