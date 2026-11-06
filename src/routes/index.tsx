@@ -47,7 +47,7 @@ function Index() {
   const ready = !!pdf && pdf.name === key && !busy;
   const fileName = safeFileName(name);
   const message =
-    `Assalamu Alaikum ${name.trim() || ""}${mode === "family" ? " & Family" : ""}, you are cordially invited to the Ansari Wedding. 🌸 #AnsariWedding`.replace(
+    `Assalamu Alaikum ${name.trim() || ""}${mode === "family" ? " & Family" : ""}, you are cordially invited to the Ansari Wedding. 🌸`.replace(
       "  ",
       " ",
     );
@@ -78,9 +78,6 @@ function Index() {
     <main className="min-h-screen bg-background">
       <div className="mx-auto max-w-5xl px-4 py-8 md:py-12">
         <header className="text-center">
-          <p className="font-display text-sm tracking-[0.3em] text-primary uppercase">
-            #AnsariWedding
-          </p>
           <h1 className="mt-2 font-display text-4xl text-foreground md:text-5xl">
             Send Your Invitation
           </h1>
