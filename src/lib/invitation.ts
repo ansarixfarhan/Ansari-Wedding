@@ -5,10 +5,10 @@ export const NAME_SLOT = {
   centerX: 368,
   baselineY: 191.5,
   maxWidth: 180,
-  fontSize: 15,
-  minFontSize: 8,
+  fontSize: 17,
+  minFontSize: 10,
   extraBaselineY: 170,
-  extraFontSize: 12,
+  extraFontSize: 14,
 };
 
 export function safeFileName(name: string) {
@@ -45,7 +45,7 @@ export async function buildInvitationPdf(name: string, extra = ""): Promise<Blob
       y: NAME_SLOT.extraBaselineY,
       size: es,
       font,
-      color: rgb(0.12, 0.1, 0.08),
+      color: rgb(0.482, 0.118, 0.118),
     });
   }
   if (text) {
@@ -58,7 +58,7 @@ export async function buildInvitationPdf(name: string, extra = ""): Promise<Blob
       y: NAME_SLOT.baselineY,
       size,
       font,
-      color: rgb(0.12, 0.1, 0.08),
+      color: rgb(0.482, 0.118, 0.118),
     });
   }
   const out = await doc.save();

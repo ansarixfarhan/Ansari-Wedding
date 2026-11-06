@@ -13,19 +13,20 @@ A personalised digital wedding invitation web app for the **Ansari Wedding**. En
 
 ## 🛠️ Tech Stack
 
-| Layer        | Technology                                  |
-| ------------ | ------------------------------------------- |
-| Framework    | [TanStack Start](https://tanstack.com/start) (React 19) |
-| Styling      | [Tailwind CSS v4](https://tailwindcss.com/) |
-| UI           | [shadcn/ui](https://ui.shadcn.com/) (Radix primitives) |
-| PDF          | [pdf-lib](https://pdf-lib.js.org/) + fontkit |
-| Server       | [Nitro](https://nitro.build/) (Cloudflare Workers preset) |
-| Hosting      | [Cloudflare Workers](https://workers.cloudflare.com/) |
-| CI/CD        | GitHub Actions → Cloudflare auto-deploy     |
+| Layer     | Technology                                                |
+| --------- | --------------------------------------------------------- |
+| Framework | [TanStack Start](https://tanstack.com/start) (React 19)   |
+| Styling   | [Tailwind CSS v4](https://tailwindcss.com/)               |
+| UI        | [shadcn/ui](https://ui.shadcn.com/) (Radix primitives)    |
+| PDF       | [pdf-lib](https://pdf-lib.js.org/) + fontkit              |
+| Server    | [Nitro](https://nitro.build/) (Cloudflare Workers preset) |
+| Hosting   | [Cloudflare Workers](https://workers.cloudflare.com/)     |
+| CI/CD     | GitHub Actions → Cloudflare auto-deploy                   |
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js 22+
 - npm
 
@@ -82,4 +83,3 @@ This project is private and not licensed for redistribution.
 ---
 
 **Made with ❤️ by [Farhan Ansari](https://ansarixfarhan.cloud)**
-

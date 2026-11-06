@@ -95,7 +95,7 @@ function Index() {
             value={name}
             onChange={(e) => setName(e.target.value)}
             placeholder="e.g. Mohd. Irfan Sahab"
-            className="mt-1 w-full rounded-lg border border-input bg-background px-4 py-3 font-display text-xl italic text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-ring"
+            className="mt-1 w-full rounded-lg border border-input bg-background px-4 py-3 font-display text-xl italic font-semibold text-[#7B1E1E] outline-none focus:border-primary focus:ring-2 focus:ring-ring dark:text-[#c44d4d]"
           />
           <div className="mt-3">
             <span className="block text-sm font-medium text-foreground">Invitation for</span>
@@ -125,7 +125,7 @@ function Index() {
                 value={custom}
                 onChange={(e) => setCustom(e.target.value)}
                 placeholder="e.g. With Wife & Children"
-                className="mt-2 w-full rounded-lg border border-input bg-background px-4 py-2 font-display text-lg italic text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-ring"
+                className="mt-2 w-full rounded-lg border border-input bg-background px-4 py-2 font-display text-lg italic font-semibold text-[#7B1E1E] outline-none focus:border-primary focus:ring-2 focus:ring-ring dark:text-[#c44d4d]"
               />
             )}
           </div>

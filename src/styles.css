@@ -182,6 +182,7 @@
   .invite-name {
     font-family: "Lora", Georgia, serif;
     font-style: italic;
-    fill: var(--foreground);
+    fill: #7B1E1E;
+    font-weight: 600;
   }
 }
